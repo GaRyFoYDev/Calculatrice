@@ -1,0 +1,103 @@
+* {
+  font-family: "Oswald", sans-serif;
+  color: #555;
+}
+
+body {
+  height: 100vh;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  background-color: #dfe6e9;
+  padding: 15px;
+  width: 450px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+#screen {
+  position: relative;
+  background-color: white;
+  height: 120px;
+  margin-bottom: 35px;
+  padding: 5px;
+  border: 1px solid #999;
+}
+
+#touches {
+  display: flex;
+  justify-content: space-between;
+}
+
+.numbers {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.number {
+  font-size: 3rem;
+  background-color: white;
+  width: 70px;
+  height: 70px;
+  border: 1px solid #777;
+  border-radius: 4px;
+  text-align: center;
+}
+.number:hover {
+  background-color: #999;
+  color: white;
+  cursor: pointer;
+}
+
+#zero {
+  width: 152px;
+}
+
+#plus {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#equal {
+  margin-top: -80px;
+}
+
+#c {
+  background-color: #e74c3c;
+  margin-left: 80px;
+}
+#c:hover {
+  background-color: #c0392b;
+  color: white;
+  cursor: pointer;
+}
+
+#ce {
+  background-color: #3498db;
+}
+#ce:hover {
+  background-color: #2980b9;
+}
+
+#affichage {
+  font-size: 3rem;
+  text-align: end;
+}
+
+#answer {
+  position: absolute;
+  color: #999;
+  margin: 0;
+  top: 0;
+  right: 10px;
+  font-size: 1.2rem;
+}/*# sourceMappingURL=style.css.map */
